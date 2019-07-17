@@ -162,7 +162,7 @@ if(!CModule::IncludeModule("designcode.builder")) {
       </div>
     </div>
     <div class="menu-stripe">
-        <div class="container">
+        <!-- <div class="container"> -->
             <?$APPLICATION->IncludeComponent("bitrix:menu", "top-menu", Array(
 				"ALLOW_MULTI_SELECT" => "N",
 					"CHILD_MENU_TYPE" => "left",
@@ -178,13 +178,13 @@ if(!CModule::IncludeModule("designcode.builder")) {
 				),
 				false
 			);?>
-        </div>
+        <!-- </div> -->
     </div>
 </div>
 
 <?if ($is_main_page) {?>
 <div class="slider-main-page">
-    <div class='container'>
+    <!-- <div class='container'> -->
         <?$APPLICATION->IncludeComponent(
 		"bitrix:news.list",
 		"slider-mainpage",
@@ -249,7 +249,7 @@ if(!CModule::IncludeModule("designcode.builder")) {
 		),
 		false
 	);?>
-    </div>
+    <!-- </div> -->
 </div>
 <div class="spacing-10"></div>
 <!-- портфолио на главной -->
